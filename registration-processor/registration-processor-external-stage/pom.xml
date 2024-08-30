@@ -9,7 +9,7 @@
 	</parent>
 	
 	<artifactId>registration-processor-external-stage</artifactId>
-    <version>1.2.0.2</version>
+    <version>1.2.0.1</version>
 	<licenses>
 		<license>
 			<name>MPL 2.0</name>
@@ -43,7 +43,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
-			<version>2.0.0.RELEASE</version>
+			<version>${spring-cloud-config.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
